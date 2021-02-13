@@ -1,4 +1,4 @@
-# Even-odd-checking-and-sorting  
+# Even-odd-classifying-and-sorting  
 Assembly code for getting array of numbers from the user then classifying and sorting even and odd numbers  
 
 # Description  
