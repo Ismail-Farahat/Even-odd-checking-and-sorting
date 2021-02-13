@@ -1,8 +1,7 @@
-
 ORG 100H            
 include emu8086.inc  ; used to print words and numbers
-      
-      
+
+
 JMP START            ; jump over data declaration
 
 N DW ?               ; number of elements that user will enter
@@ -74,7 +73,7 @@ LOOP            LOOP1             ; loop1 ----> outer loop  with iterations equa
  
 
         ;; ODD CHECK
-        PRINTN ""       ; new line
+        PRINTN ""           ; new line
         PRINTN "ODD NUMBERS (ASCENDING ORDER) : "
 
         MOV     CX,N        ; CX have the number of iterations for cheching odd numbers
@@ -101,7 +100,7 @@ ODD_C:  DEC     CX
 
         
         ;; EVEN CHECK
-        PRINTN ""      ; new line
+        PRINTN ""           ; new line
         PRINTN "EVEN NUMBERS (DESENDING ORDER) : "
 
         MOV     CX,N        ; CX have the number of iterations for cheching even numbers
