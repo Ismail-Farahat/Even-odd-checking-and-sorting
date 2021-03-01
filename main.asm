@@ -68,7 +68,7 @@ LOOP2:  DEC     DX                  ; inner loop
  
 
 
-LOOP            LOOP1             ; loop1 ----> outer loop  with iterations equal to the value of CX
+LOOP    LOOP1             ; loop1 ----> outer loop  with iterations equal to the value of CX
         
  
 
